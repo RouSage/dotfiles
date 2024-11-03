@@ -1,0 +1,6 @@
+[user]
+    name = RouSage
+    email = rousage@protonmail.com
+    signingkey = 57A3599019E802ED
+[commit]
+    gpgsign = true

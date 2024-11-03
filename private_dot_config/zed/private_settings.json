@@ -135,7 +135,7 @@
 
     "base_keymap": "VSCode",
     "ui_font_size": 12,
-    "ui_font_family": "IntelOne Mono",
+    "ui_font_family": "Intel One Mono",
     "features": {
         "inline_completion_provider": "supermaven"
     },

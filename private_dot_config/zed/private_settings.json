@@ -1,0 +1,188 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "autosave": "on_window_change",
+    "auto_update": true,
+    "always_treat_brackets_as_autoclosed": false,
+
+    "buffer_font_family": "Roboto Mono",
+    "buffer_font_features": {
+        "liga": false
+    },
+    "buffer_font_size": 12,
+    "buffer_font_weight": 400,
+    "buffer_line_height": "comfortable",
+
+    "confirm_quit": false,
+    "current_line_highlight": "all",
+    "cursor_blink": false,
+
+    "scrollbar": {
+        "show": "auto",
+        "cursors": true,
+        "diagnostics": true,
+        "git_diff": true,
+        "search_results": true,
+        "selected_symbol": true
+    },
+    "show_completions_on_input": true,
+    "show_inline_completions": true,
+    "show_whitespaces": "none",
+    "soft_wrap": "editor_width",
+    "show_wrap_guides": true,
+    "wrap_guides": [80],
+
+    "tab_size": 4,
+    "tab_bar": {
+        "show": true,
+        "show_nav_history_buttons": false
+    },
+    "tabs": {
+        "close_position": "right",
+        "file_icons": false,
+        "git_status": true
+    },
+    "telemetry": {
+        "diagnostics": true,
+        "metrics": false
+    },
+    "terminal": {
+        "alternate_scroll": "off",
+        "font_family": "MesloLGM Nerd Font",
+        "blinking": "off",
+        "button": true,
+        "copy_on_select": false,
+        "working_directory": "current_project_directory"
+    },
+    "theme": "Atelier Cave Dark",
+    "experimental.theme_overrides": {
+        "editor.document_highlight.read_background": "#586cda5d",
+        "editor.document_highlight.bracket_background": "#586cda5d",
+        "syntax": {
+            "comment": {
+                "color": "#5F8B3B"
+            }
+        }
+    },
+    "toolbar": {
+        "breadcrumbs": true,
+        "quick_actions": true,
+        "selections_menu": true
+    },
+
+    "enable_language_server": true,
+    "ensure_final_newline_on_save": true,
+
+    "format_on_save": "on",
+
+    "use_autoclose": true,
+    "use_auto_surround": true,
+
+    "git": {
+        "git_gutter": "tracked_files",
+        "inline_blame": {
+            "enabled": true
+        }
+    },
+
+    "indent_guides": {
+        "enabled": true,
+        "active_line_width": 2,
+        "background_coloring": "disabled",
+        "coloring": "fixed"
+    },
+    "inlay_hints": {
+        "enabled": true
+    },
+
+    "hard_tabs": false,
+    "hover_popover_enabled": true,
+
+    "journal": {
+        "hour_format": "hour24"
+    },
+
+    "preferred_line_length": 80,
+    "preview_tabs": {
+        "enabled": true,
+        "enable_preview_from_file_finder": false,
+        "enable_preview_from_code_navigation": false
+    },
+    "project_panel": {
+        "button": true,
+        "dock": "left",
+        "git_status": true,
+        "default_width": 240,
+        "auto_reveal_entries": true,
+        "auto_fold_dirs": true,
+        "indent_size": 12,
+        "scrollbar": {
+            "show": "never"
+        },
+        "file_icons": true,
+        "folder_icons": true
+    },
+
+    "remove_trailing_whitespace_on_save": true,
+
+    "vim_mode": true,
+
+    "base_keymap": "VSCode",
+    "ui_font_size": 12,
+    "ui_font_family": "IntelOne Mono",
+    "features": {
+        "inline_completion_provider": "supermaven"
+    },
+    "relative_line_numbers": true,
+
+    "lsp": {
+        "gopls": {
+            "initialization_options": {
+                "hints": {
+                    "assignVariableTypes": false,
+                    "compositeLiteralFields": false,
+                    "compositeLiteralTypes": false,
+                    "functionTypeParameters": true,
+                    "parameterNames": true,
+                    "constantValues": true,
+                    "rangeVariableTypes": true
+                }
+            }
+        }
+    },
+
+    "languages": {
+        "JavaScript": {
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "TypeScript": {
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "TSX": {
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "Vue.js": {
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "CSV": {
+            "soft_wrap": "editor_width"
+        },
+        "Rainbow CSV": {
+            "soft_wrap": "editor_width"
+        }
+    }
+}

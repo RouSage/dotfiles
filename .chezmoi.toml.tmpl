@@ -1,0 +1,10 @@
+[merge]
+command = "bash"
+args = [
+    '-c',
+    'cp "$1" "$2" && code --new-window --wait --merge "$0" "$1" "$2" "$3"',
+    '{{ "{{ .Destination }}" }}',
+    '{{ "{{ .Target }}" }}',
+    '{{ "{{ .Target }}" }}.base',
+    '{{ "{{ .Source }}" }}',
+]

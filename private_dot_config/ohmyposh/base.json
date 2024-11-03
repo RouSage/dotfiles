@@ -1,0 +1,86 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "background": "transparent",
+          "foreground": "cyan",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "home_icon": "~",
+            "style": "powerlevel"
+          },
+          "style": "plain",
+          "template": "{{ .Path }}",
+          "type": "path"
+        },
+        {
+          "background": "transparent",
+          "foreground": "#c7c7c7",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "branch_icon": " ",
+            "fetch_stash_count": true,
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "branch_behind_icon": "↓",
+            "branch_ahead_icon": "↑"
+          },
+          "style": "plain",
+          "template": " {{ .HEAD }}{{if .BranchStatus }} <cyan>{{ .BranchStatus }}</>{{ end }}{{ if .Working.Changed }} <yellow>*</> <red>{{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <green>{{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} <blue>\ueb4b {{ .StashCount }}</>{{ end }} ",
+          "type": "git"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "type": "rprompt",
+      "segments": [
+        {
+          "type": "executiontime",
+          "style": "plain",
+          "foreground": "yellow",
+          "background": "transparent",
+          "template": "{{ .FormattedMs }}",
+          "properties": {
+            "always_enabled": true,
+            "threshold": 500,
+            "style": "roundrock"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "newline": true,
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "background": "transparent",
+          "foreground": "magenta",
+          "foreground_templates": [
+            "{{if gt .Code 0}}red{{end}}",
+            "{{if eq .Code 0}}magenta{{end}}"
+          ],
+          "style": "plain",
+          "template": "❯"
+        }
+      ]
+    }
+  ],
+  "console_title_template": "{{ .Shell }} in {{ .Folder }}",
+  "final_space": true,
+  "version": 2,
+  "transient_prompt": {
+    "background": "transparent",
+    "foreground_templates": [
+      "{{if gt .Code 0}}red{{end}}",
+      "{{if eq .Code 0}}magenta{{end}}"
+    ],
+    "template": "❯ "
+  }
+}

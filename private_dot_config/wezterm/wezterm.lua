@@ -13,7 +13,9 @@ config.tab_bar_at_bottom = true
 config.window_close_confirmation = 'AlwaysPrompt'
 config.initial_rows = 50
 config.initial_cols = 160
--- config.window_decorations = "RESIZE"
+config.window_decorations = "RESIZE"
+config.window_background_opacity = 0.8
+config.macos_window_background_blur = 15
 config.keys = {
     {
         key = "h",

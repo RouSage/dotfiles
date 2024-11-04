@@ -154,6 +154,58 @@
                     "rangeVariableTypes": true
                 }
             }
+        },
+        "vtsls": {
+            "settings": {
+                "javascript": {
+                    "inlayHints": {
+                        "parameterNames": {
+                            "enabled": false,
+                            "suppressWhenArgumentMatchesName": false
+                        },
+                        "parameterTypes": {
+                            "enabled": false
+                        },
+                        "variableTypes": {
+                            "enabled": false,
+                            "suppressWhenTypeMatchesName": true
+                        },
+                        "propertyDeclarationTypes": {
+                            "enabled": false
+                        },
+                        "functionLikeReturnTypes": {
+                            "enabled": false
+                        },
+                        "enumMemberValues": {
+                            "enabled": false
+                        }
+                    }
+                },
+                "typescript": {
+                    "inlayHints": {
+                        "parameterNames": {
+                            "enabled": false,
+                            "suppressWhenArgumentMatchesName": false
+                        },
+                        "parameterTypes": {
+                            "enabled": false
+                        },
+                        "variableTypes": {
+                            "enabled": false,
+                            "suppressWhenTypeMatchesName": true
+                        },
+                        "propertyDeclarationTypes": {
+                            "enabled": false
+                        },
+                        "functionLikeReturnTypes": {
+                            "enabled": false
+                        },
+                        "enumMemberValues": {
+                            "enabled": false
+                        }
+                    }
+                }
+            }
         }
     },
 

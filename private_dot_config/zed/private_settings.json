@@ -235,6 +235,9 @@
         },
         "Rainbow CSV": {
             "soft_wrap": "editor_width"
+        },
+        "Make": {
+            "hard_tabs": true
         }
     }
 }

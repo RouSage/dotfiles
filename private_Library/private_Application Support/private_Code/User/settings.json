@@ -108,7 +108,7 @@
   "editor.autoClosingQuotes": "beforeWhitespace",
   "editor.tabCompletion": "on",
   "editor.formatOnPaste": false,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": true,
   "editor.minimap.maxColumn": 100,

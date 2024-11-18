@@ -33,7 +33,7 @@
     },
     "show_completions_on_input": true,
     "show_inline_completions": true,
-    "show_whitespaces": "none",
+    "show_whitespaces": "selection",
     "soft_wrap": "editor_width",
     "show_wrap_guides": true,
     "wrap_guides": [80],

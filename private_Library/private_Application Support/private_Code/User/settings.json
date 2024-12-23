@@ -1,7 +1,4 @@
 {
-  // Autoprefixer
-  "autoprefixer.formatOnSave": false,
-  "autoprefixer.findExternalAutoprefixer": false,
   // Breadcrumbs
   "breadcrumbs.enabled": true,
   "breadcrumbs.filePath": "on",

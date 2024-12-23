@@ -3,5 +3,15 @@
         "prefix": "clg",
         "body": ["console.log($1);", "$0"],
         "description": "Log output to console"
+    },
+    "Error to the console": {
+        "prefix": "cerr",
+        "body": ["console.error($1);", "$0"],
+        "description": "Log error output to console"
+    },
+    "Warn to the console": {
+        "prefix": "cwarn",
+        "body": ["console.warn($1);", "$0"],
+        "description": "Log warning output to console"
     }
 }

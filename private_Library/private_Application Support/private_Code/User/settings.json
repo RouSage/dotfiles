@@ -41,7 +41,6 @@
   "codesnap.shutterAction": "copy",
   // Code Spell Checker
   "cSpell.enabled": true,
-  "cSpell.showStatus": false,
   "cSpell.userWords": [
     "Alena",
     "browserslist",

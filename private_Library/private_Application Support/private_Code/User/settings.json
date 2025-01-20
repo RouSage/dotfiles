@@ -323,6 +323,8 @@
   "omnisharp.autoStart": true,
   "omnisharp.enableMsBuildLoadProjectsOnDemand": false,
   "omnisharp.useEditorFormattingSettings": true,
+  "omnisharp.organizeImportsOnFormat": true,
+  "omnisharp.enableEditorConfigSupport": true,
   // Python
   "python.analysis.completeFunctionParens": true,
   "python.analysis.autoImportCompletions": true,

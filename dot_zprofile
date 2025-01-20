@@ -30,3 +30,6 @@ export PATH=$PATH:$HOME/go/bin
 
 # GPG
 export GPG_TTY=$(tty)
+
+# .NET tools
+export PATH="$PATH:$HOME/.dotnet/tools"

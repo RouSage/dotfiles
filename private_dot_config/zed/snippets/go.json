@@ -1,7 +1,7 @@
 {
     "Handle error": {
-        "prefix": "err",
-        "body": "if err != nil {\n\t$0\n}",
+        "prefix": "iferr",
+        "body": "if err != nil {\n\t\t$0\n}",
         "description": "Handle error"
     }
 }

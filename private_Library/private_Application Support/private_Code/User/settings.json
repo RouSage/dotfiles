@@ -323,7 +323,6 @@
   "omnisharp.autoStart": true,
   "omnisharp.enableMsBuildLoadProjectsOnDemand": false,
   "omnisharp.useEditorFormattingSettings": true,
-  "omnisharp.organizeImportsOnFormat": true,
   "omnisharp.enableEditorConfigSupport": true,
   // Python
   "python.analysis.completeFunctionParens": true,
@@ -453,4 +452,5 @@
   "yaml.format.enable": true,
   "yaml.validate": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  "dotnet.formatting.organizeImportsOnFormat": true,
 }

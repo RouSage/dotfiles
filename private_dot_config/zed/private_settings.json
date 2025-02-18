@@ -27,13 +27,12 @@
     "scrollbar": {
         "show": "auto",
         "cursors": true,
-        "diagnostics": true,
+        "diagnostics": "all",
         "git_diff": true,
         "search_results": true,
         "selected_symbol": true
     },
     "show_completions_on_input": true,
-    "show_inline_completions": true,
     "show_whitespaces": "selection",
     "soft_wrap": "editor_width",
     "show_wrap_guides": true,
@@ -61,7 +60,14 @@
         "copy_on_select": false,
         "working_directory": "current_project_directory"
     },
+
     "theme": "Atelier Cave Dark",
+    "icon_theme": {
+        "mode": "dark",
+        "dark": "Zed (Default)",
+        "light": "Zed (Default)"
+    },
+
     "experimental.theme_overrides": {
         "editor.document_highlight.read_background": "#586cda5d",
         "editor.document_highlight.bracket_background": "#586cda5d",
@@ -138,8 +144,9 @@
     "ui_font_size": 12,
     "ui_font_family": "Intel One Mono",
     "features": {
-        "inline_completion_provider": "supermaven"
+        "edit_prediction_provider": "supermaven"
     },
+    "show_edit_predictions": true,
     "relative_line_numbers": true,
 
     "lsp": {

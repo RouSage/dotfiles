@@ -18,4 +18,5 @@
     br = branch
     ci = commit
     co = checkout
+    sw = switch
     undo = reset --soft HEAD^

@@ -141,3 +141,10 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+echo '  ____             ____                   '
+echo ' |  _ \ ___  _   _/ ___|  __ _  __ _  ___ '
+echo ' | |_) / _ \| | | \___ \ / _` |/ _` |/ _ \'
+echo ' |  _ < (_) | |_| |___) | (_| | (_| |  __/'
+echo ' |_| \_\___/ \__,_|____/ \__,_|\__, |\___|'
+echo '                               |___/      '

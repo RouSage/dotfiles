@@ -24,6 +24,17 @@
     "current_line_highlight": "all",
     "cursor_blink": false,
 
+    "diagnostics": {
+        "include_warnings": true,
+        "inline": {
+            "enabled": true,
+            "update_debounce_ms": 200,
+            "padding": 4,
+            "min_column": 0,
+            "max_severity": null
+        }
+    },
+
     "scrollbar": {
         "show": "auto",
         "cursors": true,
@@ -61,7 +72,7 @@
         "working_directory": "current_project_directory"
     },
 
-    "theme": "Atelier Cave Dark",
+    "theme": "Zed Legacy: Atelier Cave Dark",
     "icon_theme": {
         "mode": "dark",
         "dark": "Zed (Default)",
@@ -139,6 +150,10 @@
     "remove_trailing_whitespace_on_save": true,
 
     "vim_mode": true,
+    "vim": {
+        "use_system_clipboard": "on_yank"
+    },
+    "relative_line_numbers": true,
 
     "base_keymap": "VSCode",
     "ui_font_size": 12,
@@ -147,7 +162,38 @@
         "edit_prediction_provider": "supermaven"
     },
     "show_edit_predictions": true,
-    "relative_line_numbers": true,
+
+    "languages": {
+        "JavaScript": {
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "TypeScript": {
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "TSX": {
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "Vue.js": {
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "CSV": {
+            "soft_wrap": "editor_width"
+        },
+        "Rainbow CSV": {
+            "soft_wrap": "editor_width"
+        },
+        "Make": {
+            "hard_tabs": true
+        }
+    },
 
     "lsp": {
         "gopls": {
@@ -217,35 +263,24 @@
         }
     },
 
-    "languages": {
-        "JavaScript": {
-            "code_actions_on_format": {
-                "source.fixAll.eslint": true
-            }
-        },
-        "TypeScript": {
-            "code_actions_on_format": {
-                "source.fixAll.eslint": true
-            }
-        },
-        "TSX": {
-            "code_actions_on_format": {
-                "source.fixAll.eslint": true
-            }
-        },
-        "Vue.js": {
-            "code_actions_on_format": {
-                "source.fixAll.eslint": true
-            }
-        },
-        "CSV": {
-            "soft_wrap": "editor_width"
-        },
-        "Rainbow CSV": {
-            "soft_wrap": "editor_width"
-        },
-        "Make": {
-            "hard_tabs": true
-        }
+    // Extensions
+    "auto_install_extensions": {
+        "codebook": true,
+        "csv": true,
+        "docker-compose": true,
+        "dockerfile": true,
+        "emmet": true,
+        "git-firefly": true,
+        "golangci-lint": true,
+        "html": true,
+        "lua": true,
+        "make": true,
+        "sql": true,
+        "svelte": true,
+        "templ": true,
+        "toml": true,
+        "vue": true,
+        "wakatime": true,
+        "zed-legacy-themes": true
     }
 }

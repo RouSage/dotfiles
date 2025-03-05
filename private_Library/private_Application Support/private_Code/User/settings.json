@@ -1,4 +1,7 @@
 {
+  // .NET
+  "dotnet.server.useOmnisharp": false,
+  "dotnet.formatting.organizeImportsOnFormat": true,
   // Breadcrumbs
   "breadcrumbs.enabled": true,
   "breadcrumbs.filePath": "on",
@@ -34,9 +37,6 @@
   // C#
   "csharp.format.enable": true,
   "csharp.suppressHiddenDiagnostics": false,
-  // Coverage Gutters
-  "coverage-gutters.showGutterCoverage": false,
-  "coverage-gutters.showLineCoverage": true,
   // CodeSnap
   "codesnap.shutterAction": "copy",
   // Code Spell Checker
@@ -294,18 +294,6 @@
   },
   // Material Icon Theme
   "material-icon-theme.activeIconPack": "nest",
-  // .NET Test Explorer
-  "dotnet-test-explorer.addProblems": true,
-  "dotnet-test-explorer.autoExpandTree": true,
-  "dotnet-test-explorer.autoWatch": false,
-  "dotnet-test-explorer.codeLensFailed": "Failed",
-  "dotnet-test-explorer.codeLensPassed": "Passed",
-  "dotnet-test-explorer.codeLensSkipped": "Skipped",
-  "dotnet-test-explorer.enableTelemetry": false,
-  "dotnet-test-explorer.leftClickAction": "gotoTest",
-  "dotnet-test-explorer.showCodeLens": true,
-  "dotnet-test-explorer.runInParallel": false,
-  "dotnet-test-explorer.useTreeView": true,
   // npm
   "npm.runSilent": false,
   "npm.autoDetect": "on",
@@ -319,11 +307,6 @@
   "npm-intellisense.scanDevDependencies": true,
   "npm-intellisense.showBuildInLibs": true,
   "npm-intellisense.importLinebreak": ";\n",
-  // OmniSharp
-  "omnisharp.autoStart": true,
-  "omnisharp.enableMsBuildLoadProjectsOnDemand": false,
-  "omnisharp.useEditorFormattingSettings": true,
-  "omnisharp.enableEditorConfigSupport": true,
   // Python
   "python.analysis.completeFunctionParens": true,
   "python.analysis.autoImportCompletions": true,
@@ -452,5 +435,4 @@
   "yaml.format.enable": true,
   "yaml.validate": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "dotnet.formatting.organizeImportsOnFormat": true,
 }

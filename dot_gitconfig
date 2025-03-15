@@ -4,13 +4,32 @@
   path = ~/.gitconfig-work
 [init]
 	defaultBranch = main
+[branch]
+	sort = -committerdate
+[column]
+    ui = auto
+[diff]
+    algorithm = histogram
+    colorMoved = plain
+    mnemonicPrefix = true
+    renames = true
 [fetch]
 	prune = true
-[rerere]
-	enabled = true
+	pruneTags = true
+	all = true
+[pull]
+    rebase = true
 [push]
     autoSetupRemote = true
     default = current
+    followTags = true
+[rebase]
+    updateRefs = true
+[rerere]
+	enabled = true
+	autoupdate = true
+[tag]
+	sort = version:refname
 [alias]
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     lg1 = log -p --stat -n 1

@@ -1,4 +1,4 @@
-[include]
+[includeIf "gitdir:~/dev/personal/"]
   path = ~/.gitconfig-personal
 [includeIf "gitdir:~/dev/work/"]
   path = ~/.gitconfig-work
@@ -38,4 +38,5 @@
     ci = commit
     co = checkout
     sw = switch
+    p = push
     undo = reset --soft HEAD^

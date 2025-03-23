@@ -35,6 +35,10 @@
         }
     },
 
+    "jsx_tag_auto_close": {
+        "enabled": false
+    },
+
     "scrollbar": {
         "show": "auto",
         "cursors": true,

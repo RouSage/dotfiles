@@ -38,5 +38,7 @@
     ci = commit
     co = checkout
     sw = switch
+    f = fetch
     p = push
+    pf = push --force
     undo = reset --soft HEAD^

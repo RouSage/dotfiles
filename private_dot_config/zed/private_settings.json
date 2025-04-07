@@ -50,8 +50,6 @@
     "show_completions_on_input": true,
     "show_whitespaces": "selection",
     "soft_wrap": "editor_width",
-    "show_wrap_guides": true,
-    "wrap_guides": [80],
 
     "tab_size": 4,
     "tab_bar": {
@@ -130,7 +128,10 @@
         "hour_format": "hour24"
     },
 
+    "show_wrap_guides": true,
+    "wrap_guides": [80],
     "preferred_line_length": 80,
+    "pane_split_direction_vertical": "right",
     "preview_tabs": {
         "enabled": true,
         "enable_preview_from_file_finder": false,

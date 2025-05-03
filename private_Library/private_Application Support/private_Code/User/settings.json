@@ -37,6 +37,9 @@
   // C#
   "csharp.format.enable": true,
   "csharp.suppressHiddenDiagnostics": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
   // CodeSnap
   "codesnap.shutterAction": "copy",
   // Code Spell Checker

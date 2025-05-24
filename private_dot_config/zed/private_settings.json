@@ -197,9 +197,14 @@
         },
         "Make": {
             "hard_tabs": true
+        },
+        "Go": {
+            "language_servers": [
+                "gopls",
+                "golangci-lint"
+            ]
         }
     },
-
     "lsp": {
         "gopls": {
             "initialization_options": {
@@ -212,6 +217,17 @@
                     "constantValues": true,
                     "rangeVariableTypes": true
                 }
+            }
+        },
+        "golangci-lint": {
+            "initialization_options": {
+                "command": [
+                    "golangci-lint",
+                    "run",
+                    "--output.json.path=stdout",
+                    "--issues-exit-code=1",
+                    "--show-stats=false"
+                ]
             }
         },
         "vtsls": {

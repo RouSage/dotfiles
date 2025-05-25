@@ -199,10 +199,7 @@
             "hard_tabs": true
         },
         "Go": {
-            "language_servers": [
-                "gopls",
-                "golangci-lint"
-            ]
+            "language_servers": ["gopls", "golangci-lint"]
         }
     },
     "lsp": {

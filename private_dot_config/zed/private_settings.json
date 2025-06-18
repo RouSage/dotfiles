@@ -189,6 +189,11 @@
                 "source.fixAll.eslint": true
             }
         },
+        "Svelte": {
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
         "CSV": {
             "soft_wrap": "editor_width"
         },
@@ -200,6 +205,14 @@
         },
         "Go": {
             "language_servers": ["gopls", "golangci-lint"]
+        },
+        "SQL": {
+            "formatter": {
+                "external": {
+                    "command": "sql-formatter",
+                    "arguments": ["--language", "postgresql"]
+                }
+            }
         }
     },
     "lsp": {

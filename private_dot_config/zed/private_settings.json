@@ -118,7 +118,7 @@
         "coloring": "fixed"
     },
     "inlay_hints": {
-        "enabled": true
+        "enabled": false
     },
 
     "hard_tabs": false,

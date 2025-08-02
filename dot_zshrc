@@ -76,9 +76,17 @@ plugins=(
     node
     yarn
     terraform
+    vi-mode
 )
 
 ZSH_DOTENV_PROMPT=Always
+
+#
+# vi-mode config
+#
+VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
+VI_MODE_SET_CURSOR=true
+VI_MODE_CURSOR_VISUAL=2
 
 source $ZSH/oh-my-zsh.sh
 

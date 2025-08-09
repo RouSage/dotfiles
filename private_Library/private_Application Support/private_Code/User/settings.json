@@ -438,4 +438,5 @@
   "yaml.format.enable": true,
   "yaml.validate": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  "docker.extension.enableComposeLanguageServer": false,
 }

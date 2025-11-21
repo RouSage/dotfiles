@@ -437,7 +437,7 @@
   "yaml.completion": true,
   "yaml.format.enable": true,
   "yaml.validate": true,
-  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.ignoreTrimWhitespace": true,
   "docker.extension.enableComposeLanguageServer": false,
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"

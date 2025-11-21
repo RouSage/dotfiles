@@ -47,10 +47,12 @@
         "search_results": true,
         "selected_symbol": true
     },
+    "sticky_scroll": {
+        "enabled": true
+    },
     "show_completions_on_input": true,
     "show_whitespaces": "selection",
     "soft_wrap": "editor_width",
-
     "tab_size": 4,
     "tab_bar": {
         "show": true,
@@ -167,7 +169,6 @@
         "edit_prediction_provider": "supermaven"
     },
     "show_edit_predictions": true,
-
     "languages": {
         "JavaScript": {
             "code_actions_on_format": {
@@ -197,20 +198,23 @@
         "CSV": {
             "soft_wrap": "editor_width"
         },
-        "Rainbow CSV": {
-            "soft_wrap": "editor_width"
-        },
         "Make": {
             "hard_tabs": true
         },
         "Go": {
-            "language_servers": ["gopls", "golangci-lint"]
+            "language_servers": [
+                "gopls",
+                "golangci-lint"
+            ]
         },
         "SQL": {
             "formatter": {
                 "external": {
                     "command": "sql-formatter",
-                    "arguments": ["--language", "postgresql"]
+                    "arguments": [
+                        "--language",
+                        "postgresql"
+                    ]
                 }
             }
         }
@@ -293,7 +297,6 @@
             }
         }
     },
-
     // Extensions
     "auto_install_extensions": {
         "codebook": true,

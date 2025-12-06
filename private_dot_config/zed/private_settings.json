@@ -11,6 +11,8 @@
     "auto_update": true,
     "auto_signature_help": false,
     "always_treat_brackets_as_autoclosed": false,
+    "colorize_brackets": true,
+
     "buffer_font_family": "Roboto Mono",
     "buffer_font_features": {
         "liga": false
@@ -18,9 +20,11 @@
     "buffer_font_size": 12,
     "buffer_font_weight": 400,
     "buffer_line_height": "comfortable",
+
     "confirm_quit": false,
     "current_line_highlight": "all",
     "cursor_blink": false,
+
     "diagnostics": {
         "include_warnings": true,
         "inline": {
@@ -31,9 +35,11 @@
             "max_severity": null
         }
     },
+
     "jsx_tag_auto_close": {
         "enabled": false
     },
+
     "scrollbar": {
         "show": "auto",
         "cursors": true,
@@ -48,6 +54,7 @@
     "show_completions_on_input": true,
     "show_whitespaces": "selection",
     "soft_wrap": "editor_width",
+
     "tab_size": 4,
     "tab_bar": {
         "show": true,
@@ -70,12 +77,14 @@
         "copy_on_select": false,
         "working_directory": "current_project_directory"
     },
+
     "theme": "Zed Legacy: Atelier Cave Dark",
     "icon_theme": {
         "mode": "dark",
         "dark": "Zed (Default)",
         "light": "Zed (Default)"
     },
+
     "experimental.theme_overrides": {
         "editor.document_highlight.read_background": "#586cda5d",
         "editor.document_highlight.bracket_background": "#586cda5d",
@@ -90,17 +99,22 @@
         "quick_actions": true,
         "selections_menu": true
     },
+
     "enable_language_server": true,
     "ensure_final_newline_on_save": true,
+
     "format_on_save": "on",
+
     "use_autoclose": false,
     "use_auto_surround": true,
+
     "git": {
         "git_gutter": "tracked_files",
         "inline_blame": {
             "enabled": true
         }
     },
+
     "indent_guides": {
         "enabled": true,
         "active_line_width": 2,
@@ -110,15 +124,16 @@
     "inlay_hints": {
         "enabled": false
     },
+
     "hard_tabs": false,
     "hover_popover_enabled": true,
+
     "journal": {
         "hour_format": "hour24"
     },
+
     "show_wrap_guides": true,
-    "wrap_guides": [
-        80
-    ],
+    "wrap_guides": [80],
     "preferred_line_length": 80,
     "pane_split_direction_vertical": "right",
     "preview_tabs": {
@@ -140,12 +155,15 @@
         "file_icons": true,
         "folder_icons": true
     },
+
     "remove_trailing_whitespace_on_save": true,
+
     "vim_mode": true,
     "vim": {
         "use_system_clipboard": "on_yank"
     },
-    "relative_line_numbers": true,
+    "relative_line_numbers": "enabled",
+
     "base_keymap": "VSCode",
     "ui_font_size": 12,
     "ui_font_family": "Intel One Mono",
@@ -153,6 +171,7 @@
         "edit_prediction_provider": "supermaven"
     },
     "show_edit_predictions": true,
+
     "languages": {
         "JavaScript": {
             "code_actions_on_format": {
@@ -186,19 +205,13 @@
             "hard_tabs": true
         },
         "Go": {
-            "language_servers": [
-                "gopls",
-                "golangci-lint"
-            ]
+            "language_servers": ["gopls", "golangci-lint"]
         },
         "SQL": {
             "formatter": {
                 "external": {
                     "command": "sql-formatter",
-                    "arguments": [
-                        "--language",
-                        "postgresql"
-                    ]
+                    "arguments": ["--language", "postgresql"]
                 }
             }
         }
@@ -281,6 +294,7 @@
             }
         }
     },
+
     // Extensions
     "auto_install_extensions": {
         "codebook": true,

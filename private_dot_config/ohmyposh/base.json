@@ -15,7 +15,7 @@
       "alignment": "left",
       "segments": [
         {
-          "properties": {
+          "options": {
             "home_icon": "~",
             "style": "powerlevel"
           },
@@ -27,7 +27,7 @@
           "style": "plain"
         },
         {
-          "properties": {
+          "options": {
             "branch_ahead_icon": "\u2191",
             "branch_behind_icon": "\u2193",
             "branch_icon": "\ue0a0 ",
@@ -49,7 +49,7 @@
       "type": "rprompt",
       "segments": [
         {
-          "properties": {
+          "options": {
             "always_enabled": true,
             "style": "roundrock",
             "threshold": 500
@@ -81,6 +81,6 @@
       "newline": true
     }
   ],
-  "version": 3,
+  "version": 4,
   "final_space": true
 }

@@ -16,15 +16,11 @@
         "bindings": {
             "ctrl-w v": [
                 "workspace::MoveItemToPaneInDirection",
-                {
-                    "direction": "right"
-                },
+                { "direction": "right" },
             ],
             "ctrl-w s": [
                 "workspace::MoveItemToPaneInDirection",
-                {
-                    "direction": "down"
-                },
+                { "direction": "down" },
             ],
         },
     },

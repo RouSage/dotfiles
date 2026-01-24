@@ -2,13 +2,30 @@
     {
         "bindings": {
             "ctrl-shift-tab": "pane::ActivatePreviousItem",
-            "ctrl-tab": "pane::ActivateNextItem"
-        }
+            "ctrl-tab": "pane::ActivateNextItem",
+        },
     },
     {
         "context": "Editor && vim_mode == insert",
         "bindings": {
-            "ctrl-h": "editor::ShowSignatureHelp"
-        }
-    }
+            "ctrl-h": "editor::ShowSignatureHelp",
+        },
+    },
+    {
+        "context": "VimControl && !menu || !Editor && !Terminal",
+        "bindings": {
+            "ctrl-w v": [
+                "workspace::MoveItemToPaneInDirection",
+                {
+                    "direction": "right"
+                },
+            ],
+            "ctrl-w s": [
+                "workspace::MoveItemToPaneInDirection",
+                {
+                    "direction": "down"
+                },
+            ],
+        },
+    },
 ]
